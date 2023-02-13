@@ -4,6 +4,9 @@
 body{
     font-family: Verdana, sans-serif;
     margin: 0;
+    background-size: 100%;
+    background-image: url(../assets/images/nike.png); /*change the image to one of you choice */
+     background-repeat: repeat-x-y; 
 }
 
 h1{
@@ -68,7 +71,18 @@ footer{
     color:#4f4f4f;
     transition: all 0.2s; /* CSS transitions https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions */
 }
-
+.flex-item a#demon{
+    background-image: url(../assets/images/demon.png); 
+}
+.flex-item a#eight{
+    background-image: url(../assets/images/eight.png); 
+}.flex-item a#demon2{
+    background-image: url(../assets/images/demon2.png); 
+}.flex-item a#nike{
+    background-image: url(../assets/images/nike.png); 
+}.flex-item a#week4{
+    background-image: url(../assets/images/week4.png); 
+}
 /* want a different background image for each project? */
 /* try give each a tag a unique id in your HTML and then set different background images here*/
 /* EXAMPLE CSS: won't work if you just un-comment this:*/
