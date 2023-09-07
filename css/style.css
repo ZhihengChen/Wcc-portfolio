@@ -94,6 +94,8 @@ footer{
     background-image: url(../assets/images/week4.png); 
 }.flex-item a#final{
     background-image: url(../assets/images/final.png); 
+}.flex-item a#exhibition{
+    background-image: url(../assets/images/wps_doc_0.jpg); 
 }
 
 /* want a different background image for each project? */
